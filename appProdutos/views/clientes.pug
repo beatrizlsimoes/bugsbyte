@@ -21,7 +21,7 @@ block content
               ul.w3-ul 
                 if f.Ultimos_produtos && f.Ultimos_produtos.length > 0
                   each produto in f.Ultimos_produtos
-                    li: a(href=`/produtos/${encodeURIComponent(produto)}`) #{produto}
+                    li #{produto}
                 else
                   li Nenhum produto encontrado
     footer.w3-container.w3-red

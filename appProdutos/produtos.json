@@ -1,0 +1,347 @@
+{
+  "clientes": [
+    {
+      "nome": "Maria Santos",
+      "Ultimos_produtos": [
+        "P5",
+        "P7",
+        "P20",
+        "P21",
+        "P27",
+        "P29"
+      ],
+      "cartao": "C628405639",
+      "id": "Maria Santos"
+    },
+    {
+      "id": "Pedro Almeida",
+      "cartao": "C628405640",
+      "Ultimos_produtos": [
+        "P2",
+        "P4",
+        "P7",
+        "P28",
+        "P29"
+      ]
+    },
+    {
+      "id": "Ana Costa",
+      "cartao": "C628405641",
+      "Ultimos_produtos": [
+        "P6",
+        "P9",
+        "P10",
+        "P18",
+        "P28"
+      ]
+    },
+    {
+      "id": "Luís Ferreira",
+      "cartao": "C628405642",
+      "Ultimos_produtos": [
+        "P5",
+        "P8",
+        "P18",
+        "P20",
+        "P22"
+      ]
+    },
+    {
+      "id": "Sofia Martins",
+      "cartao": "C628405643",
+      "Ultimos_produtos": [
+        "P9",
+        "P10",
+        "P15",
+        "P18",
+        "P22"
+      ]
+    },
+    {
+      "id": "Ricardo Oliveira",
+      "cartao": "C628405644",
+      "Ultimos_produtos": [
+        "P6",
+        "P9",
+        "P21",
+        "P26",
+        "P30"
+      ]
+    },
+    {
+      "id": "Cláudia Pereira",
+      "cartao": "C628405645",
+      "Ultimos_produtos": [
+        "P8",
+        "P14",
+        "P27",
+        "PP29",
+        "P32"
+      ]
+    },
+    {
+      "id": "André Gomes",
+      "cartao": "C628405646",
+      "Ultimos_produtos": [
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P13"
+      ]
+    },
+    {
+      "id": "Patrícia Ribeiro",
+      "cartao": "C628405647",
+      "Ultimos_produtos": [
+        "P2",
+        "P7",
+        "P9",
+        "P29",
+        "P31"
+      ]
+    }
+  ],
+  "produtos": [
+    {
+      "cartao": "P1",
+      "id": "Leite",
+      "marca": "Continente",
+      "preco": 0.84
+    },
+    {
+      "cartao": "P2",
+      "id": "Detergente Máquina Roupa Liquido",
+      "marca": "Continente",
+      "preco": 3.3
+    },
+    {
+      "cartao": "P3",
+      "id": "Pasta de Dentes",
+      "marca": "Colgate",
+      "preco": 2.9
+    },
+    {
+      "cartao": "P4",
+      "id": "Barbie Cutie Reveal",
+      "marca": "Barbie",
+      "preco": 12.49
+    },
+    {
+      "cartao": "P5",
+      "id": "Fraldas Sensitive 4-kg T2",
+      "marca": "Dodot",
+      "preco": 30.49
+    },
+    {
+      "cartao": "P6",
+      "id": "Café Torrado Moído",
+      "marca": "Delta",
+      "preco": 4.99
+    },
+    {
+      "cartao": "P7",
+      "id": "Arroz Agulha",
+      "marca": "Cigala",
+      "preco": 1.29
+    },
+    {
+      "cartao": "P8",
+      "id": "Óleo de Girassol",
+      "marca": "Fula",
+      "preco": 2.79
+    },
+    {
+      "cartao": "P9",
+      "id": "Bolachas Maria",
+      "marca": "Continente",
+      "preco": 1.1
+    },
+    {
+      "cartao": "P10",
+      "id": "Água Mineral 1.5L",
+      "marca": "Luso",
+      "preco": 0.59
+    },
+    {
+      "cartao": "P11",
+      "id": "Sabão em Pó",
+      "marca": "Omo",
+      "preco": 5.99
+    },
+    {
+      "cartao": "P12",
+      "id": "Fraldas Sensitive 3-kg T1",
+      "marca": "Dodot",
+      "preco": 28.49
+    },
+    {
+      "cartao": "P13",
+      "id": "Detergente Máquina Louça Liquido",
+      "marca": "Continente",
+      "preco": 2.99
+    },
+    {
+      "cartao": "P14",
+      "id": "Cerveja Sagres Lata 0.5L",
+      "marca": "Sagres",
+      "preco": 0.89
+    },
+    {
+      "cartao": "P15",
+      "id": "Refrigerante Laranja 1.5L",
+      "marca": "Sumol",
+      "preco": 1.29
+    },
+    {
+      "cartao": "P16",
+      "id": "Azeite Virgem Extra 1L",
+      "marca": "Gallo",
+      "preco": 4.99
+    },
+    {
+      "cartao": "P17",
+      "id": "Iogurte Natural 4x125g",
+      "marca": "Continente",
+      "preco": 1.99
+    },
+    {
+      "cartao": "P18",
+      "id": "Papel Higiénico 12 Rolos",
+      "marca": "Renova",
+      "preco": 3.99
+    },
+    {
+      "cartao": "P19",
+      "id": "Sabão Liquido para Roupa",
+      "marca": "Omo",
+      "preco": 6.49
+    },
+    {
+      "cartao": "P20",
+      "id": "Batatas Fritas 200g",
+      "marca": "Ruffles",
+      "preco": 1.49
+    },
+    {
+      "cartao": "P21",
+      "id": "Chocolate 100g",
+      "marca": "Milka",
+      "preco": 1.99
+    },
+    {
+      "cartao": "P22",
+      "id": "Sopa de Legumes 1L",
+      "marca": "Knorr",
+      "preco": 1.29
+    },
+    {
+      "cartao": "P23",
+      "id": "Queijo Ralado 200g",
+      "marca": "Continente",
+      "preco": 2.49
+    },
+    {
+      "cartao": "P24",
+      "id": "Fruta Fresca SortCartaoa 1kg",
+      "marca": "---",
+      "preco": 3.99
+    },
+    {
+      "cartao": "P25",
+      "id": "Peixe Congelado 1kg",
+      "marca": "---",
+      "preco": 5.99
+    },
+    {
+      "cartao": "P26",
+      "id": "Carne Picada 500g",
+      "marca": "---",
+      "preco": 4.49
+    },
+    {
+      "cartao": "P27",
+      "id": "Frango Inteiro 1.5kg",
+      "marca": "---",
+      "preco": 6.99
+    },
+    {
+      "cartao": "P28",
+      "id": "BebCartaoa Energética 500ml",
+      "marca": "Red Bull",
+      "preco": 1.49
+    },
+    {
+      "cartao": "P29",
+      "id": "Sopa Instantânea 60g",
+      "marca": "Knorr",
+      "preco": 0.89
+    },
+    {
+      "cartao": "P30",
+      "id": "Bolachas de Água e Sal 200g",
+      "marca": "Continente",
+      "preco": 1.19
+    },
+    {
+      "cartao": "P31",
+      "id": "Cerveja Super Bock Lata 0.5L",
+      "marca": "Super Bock",
+      "preco": 0.99
+    },
+    {
+      "cartao": "P32",
+      "id": "Refrigerante Cola 1.5L",
+      "marca": "Coca-Cola",
+      "preco": 1.49
+    },
+    {
+      "cartao": "P33",
+      "id": "Iogurte de Frutos Vermelhos 4x125g",
+      "marca": "Mimosa",
+      "preco": 2.49
+    },
+    {
+      "cartao": "P34",
+      "id": "Papel de Cozinha 2 Rolos",
+      "marca": "Continente",
+      "preco": 1.99
+    },
+    {
+      "cartao": "P35",
+      "id": "Detergente para Louça 500ml",
+      "marca": "Fairy",
+      "preco": 1.99
+    },
+    {
+      "cartao": "P36",
+      "id": "Fraldas Sensitive 5-kg T3",
+      "marca": "Dodot",
+      "preco": 32.49
+    },
+    {
+      "cartao": "P37",
+      "id": "Cerveja Heineken Lata 0.5L",
+      "marca": "Heineken",
+      "preco": 1.29
+    },
+    {
+      "cartao": "P38",
+      "id": "Refrigerante Limão 1.5L",
+      "marca": "Lipton",
+      "preco": 1.29
+    },
+    {
+      "cartao": "P39",
+      "id": "Sopa de Frango 1L",
+      "marca": "Knorr",
+      "preco": 1.49
+    },
+    {
+      "cartao": "P40",
+      "id": "Queijo Fresco 200g",
+      "marca": "Continente",
+      "preco": 2.99
+    }
+  ]
+}
