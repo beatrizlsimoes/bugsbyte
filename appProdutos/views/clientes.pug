@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  .w3-card-4
+    header.w3-container.w3-red
+      h1= tit
+    .w3-container
+      br
+      a.w3-btn.w3-red.w3-mb-2.w3-right(href='/') Voltar
+      br
+      table.w3-table-all 
+        tr 
+          th Nome
+          th Cartão
+          th Produtos 
+        each f in lclientes || []
+          tr 
+            td: a(href=`/clientes/${encodeURIComponent(f.id)}`) #{f.id}
+            td= f.cartao
+            td
+              ul.w3-ul 
+                if f.Ultimos_produtos && f.Ultimos_produtos.length > 0
+                  each produto in f.Ultimos_produtos
+                    li: a(href=`/produtos/${encodeURIComponent(produto)}`) #{produto}
+                else
+                  li Nenhum produto encontrado
+    footer.w3-container.w3-red
+      adress Generated in Hackton2025
